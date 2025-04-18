@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en" class="dark">
+  <head>
+    <!-- Google tag (gtag.js) -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-7MH9T2R6TC"></script>
+<script>
+window.dataLayer = window.dataLayer || [];
+function gtag(){dataLayer.push(arguments);}
+gtag('js', new Date());
+
+gtag('config', 'G-7MH9T2R6TC');
+</script>
+
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Spec-Check | Product Page</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700&display=swap" rel="stylesheet">
+</head>
+
+    <body class="min-h-screen dark:bg-black dark:text-white">
+        <!-- Header -->
+  <header class="bg-black shadow-md sticky top-0 z-50">
+    <div class="container mx-auto flex flex-wrap justify-between items-center p-4">
+      <a href="#" class="text-2xl font-bold text-[#51ff00]">Spec-Check</a>
+          
+      </nav>
+      <div class="flex items-center space-x-4">
+        <a href="index.html" class="relative inline-block text-white font-bold text-xl">
+          Home
+        </a>
+      </div>
+    </div>
+  </header>
+      
+        <!-- Product Section -->
+    <section class="py-12 px-6">
+      <div class="container mx-auto grid md:grid-cols-2 gap-12">
+        <!-- Image Gallery -->
+        <div class="rounded-xl overflow-hidden bg-black-900 p-6">
+          <div class="mb-4">
+            <img id="mainImage" src="GPU.jpeg" alt="Product Image" class="w-full h-auto rounded-lg">
+          </div>
+          <div class="flex space-x-4">
+            <img src="GPU.jpeg" alt="Thumb 1" class="w-20 h-20 object-cover cursor-pointer rounded border border-gray-700" onclick="changeImage('GPU.jpeg')">
+            <img src="destop.jpeg" alt="Thumb 2" class="w-20 h-20 object-cover cursor-pointer rounded border border-gray-700" onclick="changeImage('destop.jpeg')">
+            <img src="keyboard.jpeg" alt="Thumb 3" class="w-20 h-20 object-cover cursor-pointer rounded border border-gray-700" onclick="changeImage('keyboard.jpeg')">
+          </div>
+        </div>
+
+    <!-- Details -->
+    <div class="flex flex-col space-y-4">
+      <h1 class="text-3xl font-bold">Gaming Beast RTX 4080 Edition</h1>
+      <p class="text-gray-300 text-sm rating-stars">★★★★☆ (38 reviews)</p>
+      <p class="text-2xl text-[#51ff00] font-semibold">$2,499.99</p>
+      <ul class="text-gray-400 list-disc ml-5 space-y-1">
+        <li>Intel Core i9 14th Gen</li>
+        <li>NVIDIA GeForce RTX 4080 16GB</li>
+        <li>32GB DDR5 RAM</li>
+        <li>2TB NVMe SSD</li>
+      </ul>
+
+      <a href="#" class="bg-[#51ff00] text-black text-xl font-bold px-10 py-3 rounded-lg hover:bg-lime-400 transition w-full md:w-auto flex items-center justify-center gap-2 animate-pop">
+        <span>Purchase</span>
+        <span>🛒</span>
+      </a>
+    </div>
+  </div>
+</section>
+      
+        <!-- Tabs Section -->
+        <section class="px-6 py-8">
+          <div class="container mx-auto">
+            <div class="flex space-x-6 border-b border-gray-700 text-white">
+              <button class="tab-button pb-2 border-b-2 border-[#51ff00]">Description</button>
+            </div>
+      
+            <div id="tab-content" class="mt-6 text-gray-300">
+              <p>This powerful machine is built for extreme gaming. Engineered with the latest RTX 4080 graphics, 2TB NVMe, and liquid-cooled 14th Gen Intel CPU, it's made for those who want no limits.</p>
+            </div>
+          </div>
+        </section>
+
+        <script src="javascrip.js"></script>

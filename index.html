@@ -1,0 +1,212 @@
+<!DOCTYPE html>
+<html lang="en" class="dark">
+  <head>
+    <!-- Google tag (gtag.js) -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-7MH9T2R6TC"></script>
+<script>
+window.dataLayer = window.dataLayer || [];
+function gtag(){dataLayer.push(arguments);}
+gtag('js', new Date());
+
+gtag('config', 'G-7MH9T2R6TC');
+</script>
+  <link rel="stylesheet" href="style.css">
+<meta charset="UTF-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+<title>Spec-Check</title>
+<script src="https://cdn.tailwindcss.com"></script>
+</head>
+
+<body class="dark:bg-black dark:text-white">
+
+
+  <!-- Header -->
+  <header class="bg-black shadow-md sticky top-0 z-50">
+    <div class="container mx-auto flex flex-wrap justify-between items-center p-4">
+      <a href="#" class="text-2xl font-bold text-[#51ff00]">Spec-Check</a>
+          
+      </nav>
+      <div class="flex items-center space-x-4">
+        <a href="blog.html" class="relative inline-block text-white font-bold text-xl">
+          B
+          <span class="absolute -top-2 -right-2 bg-red-500 text-white text-xs px-1 rounded-full">
+            !
+          </span>
+        </a>
+      </div>
+    </div>
+  </header>
+
+  
+
+  
+
+
+  <section class="slider">
+    <div class="slide active">
+      <img src="poster1.jpeg" alt="Slide 1" />
+      <div class="slide-content">
+        <h2>Title</h2>
+        <p>Subtitle</p>
+        <a href="#" class="btn">Shop Now</a>
+      </div>
+    </div>
+    <div class="slide">
+      <img src="poster2.jpeg" alt="Slide 2" />
+    </div>
+    <div class="slide">
+      <img src="poster6.jpeg" alt="Slide 3" />
+    </div>
+  
+    <!-- Navigation Dots -->
+    <div class="dots">
+      <span class="dot active" data-slide="0"></span>
+      <span class="dot" data-slide="1"></span>
+      <span class="dot" data-slide="2"></span>
+    </div>
+  </section>
+
+
+  <section class="shop-by-category">
+    <h2 class="text-3xl font-bold mb-10 text-center">🛒Shop by Category🛒</h2>
+    <div class="category-slider-wrapper">
+        <button class="scroll-arrow scroll-left">&#8249;</button>
+    <div class="category-slider" id="categorySlider">
+      <a href="gaminglaptops.html" class="category-card">
+        <img src="gaminglaptop2.jpeg" alt="Gaming Laptops">
+        <span>Gaming Laptops</span>
+      </a>
+      <a href="gamingdesktops.html" class="category-card">
+        <img src="destop.jpeg" alt="Gaming Desktops">
+        <span>Gaming Desktops</span>
+      </a>
+      <a href="gamingparts.html" class="category-card">
+        <img src="GPU.jpeg" alt="Graphics Cards">
+        <span>Gaming Parts</span>
+      </a>
+      <a href="monitors.html" class="category-card">
+        <img src="monitor.jpeg" alt="Monitors">
+        <span>Monitors</span>
+      </a>
+      <a href="gamingaccess.html" class="category-card">
+        <img src="keyboard.jpeg" alt="Keyboards">
+        <span>Gaming Accessories</span>
+      </a>
+    </div>
+    <button class="scroll-arrow scroll-right">&#8250;</button>
+</div>
+  </section>
+  
+ <!--Search Bar-->
+ <!--<section class="w-full flex justify-center px-4 py-10 bg-black">
+    <div class="relative w-full max-w-lg">
+      <input
+        type="text"
+        id="searchInput"
+        placeholder="Search the galaxy for gear..."
+        class="w-full px-5 py-3 pl-12 rounded-full bg-gray-900 text-green-400 placeholder-green-300
+               focus:outline-none focus:ring-2 focus:ring-green-500 focus:shadow-[0_0_20px_2px_#00ff88]
+               transition-all duration-300 ease-in-out hover:ring-green-400"
+      />
+      <svg class="absolute left-4 top-1/2 transform -translate-y-1/2 w-5 h-5 text-green-400 pointer-events-none"
+        fill="none"
+        stroke="currentColor"
+        stroke-width="2"
+        viewBox="0 0 24 24"
+        stroke-linecap="round"
+        stroke-linejoin="round">
+        <circle cx="11" cy="11" r="8"></circle>
+        <line x1="21" y1="21" x2="16.65" y2="16.65"></line>
+      </svg>
+    </div>
+  </section> -->
+  
+
+  <!-- Product Section -->
+  <section id="products" class="container mx-auto px-6 py-16">
+    <h2 class="text-3xl font-bold mb-10 text-center">🔥Discovery🔥</h2>
+    <div class="grid gap-8 grid-cols-1 md:grid-cols-2 lg:grid-cols-3">
+      <!-- Product Card -->
+      <div class="product-card bg-white shadow-md rounded-2xl overflow-hidden hover:shadow-xl transition">
+        <img src="GPU.jpeg" alt="Gaming PC" class="w-full h-48 object-cover" />
+        <div class="p-6">
+          <h3 class="font-bold text-xl mb-2 product-Ryzen 7 RTX 4070 Beast">Ryzen 7 RTX 4070 Beast</h3>
+          <p class="text-gray-600">16GB RAM · 1TB SSD · Liquid Cooled</p>
+          <div class="mt-4 flex justify-between items-center">
+            <span class="text-xl font-bold text-[#51ff00]">R22,999</span>
+            <a href="product.html" class="buy-now-link">Buy Now</a>
+          </div>
+        </div>
+      </div>
+
+      <div class="bg-white shadow-md rounded-2xl overflow-hidden hover:shadow-xl transition">
+        <img src="gaminglaptop.jpg" alt="Gaming PC" class="w-full h-48 object-cover" />
+        <div class="p-6">
+          <h3 class="font-bold text-xl mb-2">Ryzen 7 RTX 4070 Beast</h3>
+          <p class="text-gray-600">16GB RAM · 1TB SSD · Liquid Cooled</p>
+          <div class="mt-4 flex justify-between items-center">
+            <span class="text-xl font-bold text-[#51ff00]">R22,999</span>
+            <a href="#" class="buy-now-link">Buy Now</a>
+          </div>
+        </div>
+      </div>
+
+      <div class="bg-white shadow-md rounded-2xl overflow-hidden hover:shadow-xl transition">
+        <img src="destop.jpeg" alt="Gaming PC" class="w-full h-48 object-cover" />
+        <div class="p-6">
+          <h3 class="font-bold text-xl mb-2">Ryzen 7 RTX 4070 Beast</h3>
+          <p class="text-gray-600">16GB RAM · 1TB SSD · Liquid Cooled</p>
+          <div class="mt-4 flex justify-between items-center">
+            <span class="text-xl font-bold text-[#51ff00]">R22,999</span>
+            <a href="#" class="buy-now-link">Buy Now</a>
+          </div>
+        </div>
+      </div>
+
+      <div class="bg-white shadow-md rounded-2xl overflow-hidden hover:shadow-xl transition">
+        <img src="monitor.jpeg" alt="Gaming PC" class="w-full h-48 object-cover" />
+        <div class="p-6">
+          <h3 class="font-bold text-xl mb-2">Ryzen 7 RTX 4070 Beast</h3>
+          <p class="text-gray-600">16GB RAM · 1TB SSD · Liquid Cooled</p>
+          <div class="mt-4 flex justify-between items-center">
+            <span class="text-xl font-bold text-[#51ff00]">R22,999</span>
+            <a href="#" class="buy-now-link">Buy Now</a>
+          </div>
+        </div>
+      </div>
+      <!-- Duplicate the card above for more products -->
+    </div>
+  </section>
+
+  <!-- Footer -->
+  <footer class="bg-gray-800 text-white py-8">
+    <div class="container mx-auto px-6">
+      <div class="flex flex-col md:flex-row justify-between">
+        <div class="mb-6 md:mb-0">
+          <h4 class="text-lg font-bold mb-2">Speck-check.pro</h4>
+          <p class="text-gray-400">Your ultimate guide to gaming tech made simple.<br> We break down complex PC specs and product details into clear,<br> easy-to-understand info so anyone can make smart buying decisions,<br> no tech skills needed.<br> Whether you're upgrading your setup or just getting started,<br> Spec-Check is here to help you choose with confidence.</p>
+        </div>
+        <div class="mb-6 md:mb-0">
+          <h4 class="text-lg font-bold mb-2">Quick Links</h4>
+          <ul>
+            <li><a href="about.html" class="text-gray-400 hover:text-white">About</a></li>
+            <li><a href="service.html" class="text-gray-400 hover:text-white">Service</a></li>
+            <li><a href="contact.html" class="text-gray-400 hover:text-white">Contact</a></li>
+            <li><a href="blog.html" class="text-gray-400 hover:text-white">Blog Posts</a></li>
+          </ul>
+        </div>
+        <div>
+          <h4 class="text-lg font-bold mb-2">Contact Us</h4>
+          <a href="https://mail.google.com/mail/u/0/#sent?compose=new" class="text-gray-400">Email: speccheck42@gmail.com</a>
+          <p class="text-gray-400">Phone: +27 61 312 2431</p>
+        </div>
+      </div>
+      <div class="mt-8 text-center text-gray-500">
+        &copy; 2025 Spec-Check. All rights reserved.
+      </div>
+    </div>
+  </footer>
+
+  <script src="javascrip.js"></script>
+</body>
+</html>
